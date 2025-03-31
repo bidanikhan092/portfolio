@@ -21,7 +21,7 @@ export default function WebDisplay() {
               style={{ objectFit: "cover", height: "200px" }}
             />
             <div className="card-body text-center">
-              <h5 className="card-title fw-bold">BurgerWeb</h5>
+              <h5 className="card-title fw-bold text-primary">BurgerWeb</h5>
               <p className="card-text text-muted">
                 A hardcoded template made with HTML and CSS. Perfect for minor
                 code modifications to get your burger restaurant site running.
@@ -39,7 +39,7 @@ export default function WebDisplay() {
               style={{ objectFit: "cover", height: "200px" }}
             />
             <div className="card-body text-center">
-              <h5 className="card-title fw-bold">Restaurant</h5>
+              <h5 className="card-title fw-bold text-primary">Restaurant</h5>
               <p className="card-text text-muted">
                 A hardcoded template made with HTML and CSS. Perfect for minor
                 code modifications to get your restaurant site running.
@@ -57,7 +57,7 @@ export default function WebDisplay() {
               style={{ objectFit: "cover", height: "200px" }}
             />
             <div className="card-body text-center">
-              <h5 className="card-title fw-bold">Educational Institute</h5>
+              <h5 className="card-title fw-bold text-primary">Educational Institute</h5>
               <p className="card-text text-muted">
                 A hardcoded template made with HTML, CSS, and JavaScript (for
                 custom sliders). Perfect for minor code modifications to get
