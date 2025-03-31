@@ -1,22 +1,27 @@
-import 'react'
-import './App.css'
-import Toolbar from './components/toolbar'
-import Header from './components/Header'
-import WebDisplay from './components/WebDisplay'
+import "react";
+import "./App.css";
+import Header from "./components/Header";
+import WebDisplay from "./components/WebDisplay";
+import About from "./components/About";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
-
-  return ( 
+  return (
     <div className="wrapper">
       <div className="container sect-1">
-      <Toolbar />
-      <Header />
+        <Navbar />
+        <Header />
       </div>
       <div className="container text-center">
-      <WebDisplay />
+        <WebDisplay />
       </div>
+      <div className="container">
+        <About />
+      </div>
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
