@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-<div className="container my-5 About">
+<div className="container my-5 About" id="about">
       <div className="row justify-content-center">
         <div className="col-lg-8">
           <h1 className="text-center fw-bold text-primary mb-4">About Me</h1>
