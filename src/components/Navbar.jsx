@@ -23,13 +23,30 @@ export default function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className={`collapse navbar-collapse ${isOpen ? "show" : ""}`} id="navbarNav">
+        <div
+          className={`collapse navbar-collapse ${isOpen ? "show" : ""}`}
+          id="navbarNav"
+        >
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link" href="#projects">Projects</a>
+              <a className="nav-link" href="#projects">
+                Projects
+              </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#about">About Me</a>
+              <a className="nav-link" href="#about">
+                About Me
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className="nav-link"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=bidanikhan092@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Contact Me
+              </a>
             </li>
           </ul>
         </div>
