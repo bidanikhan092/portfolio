@@ -30,7 +30,7 @@ export default function Header() {
         </div>
       </div>
       <div className="main_image">
-        <img src={MainCharacter} alt="main character" />
+        <img src={MainCharacter} alt="main character" loading="lazy" />
       </div>
     </div>
   );

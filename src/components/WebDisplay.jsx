@@ -19,6 +19,7 @@ export default function WebDisplay() {
               className="card-img-top"
               alt="Burger Web"
               style={{ objectFit: "cover", height: "200px" }}
+              loading="lazy"
             />
             <div className="card-body text-center">
               <h5 className="card-title fw-bold text-primary">BurgerWeb</h5>
@@ -37,6 +38,7 @@ export default function WebDisplay() {
               className="card-img-top"
               alt="Restaurant Web"
               style={{ objectFit: "cover", height: "200px" }}
+              loading="lazy"
             />
             <div className="card-body text-center">
               <h5 className="card-title fw-bold text-primary">Restaurant</h5>
@@ -55,6 +57,7 @@ export default function WebDisplay() {
               className="card-img-top"
               alt="Educational Institute Web"
               style={{ objectFit: "cover", height: "200px" }}
+              loading="lazy"
             />
             <div className="card-body text-center">
               <h5 className="card-title fw-bold text-primary">Educational Institute</h5>
