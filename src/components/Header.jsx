@@ -6,11 +6,11 @@ export default function Header() {
   return (
     <div className="main_content d-flex justify-content">
       <div className="main_para">
-        Hi, I'm
+        <h1> Hi, I'm
         <br />
         <span>Muhammad Ahmad,</span>
         <br />
-        and I make beautiful websites! <br />
+        and I make beautiful websites! <br /></h1> 
         <div className="mt-3">
           <a
             href="https://mail.google.com/mail/?view=cm&fs=1&to=bidanikhan092@gmail.com"
