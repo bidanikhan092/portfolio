@@ -1,5 +1,5 @@
 import React from "react";
-import MainCharacter from "../assets/main_character.png";
+import MainCharacter from "../assets/main_character.WebP";
 import CV from "/MyCV.pdf";
 
 export default function Header() {

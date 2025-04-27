@@ -1,7 +1,7 @@
 import React from "react";
-import BurgerWeb from "../assets/Burger_King.png";
-import Restraunt from "../assets/Restraunt.png";
-import EducationalInstitute from "../assets/Coursezoid-Zarrtash.png";
+import BurgerWeb from "../assets/Burger_King.WebP";
+import Restraunt from "../assets/Restraunt.WebP";
+import EducationalInstitute from "../assets/Coursezoid-Zarrtash.WebP";
 
 export default function WebDisplay() {
   return (
